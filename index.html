@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Responsive</title>
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+
+  <body class="bg-white text-black min-h-screen">
+  <div id="root" class="min-h-screen ">
+    <div class="max-w-[1210px] bg-white text-black m-auto">
+      <!-- your navbar and content -->
+       <div class="navbar bg-white text-black">
+        <div class="navbar-start bg-white text-black">
+          <div class="dropdown bg-white text-black">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-white text-black">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 bg-white text-black"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm bg-white text-black dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li><a>HOME</a></li>
+              
+            </ul>
+          </div>
+          <a class="btn btn-ghost bg-white text-black text-xl">daisyUI</a>
+        </div>
+        <div class="navbar-center bg-white text-black hidden lg:flex">
+          <ul class="menu bg-white text-black menu-horizontal px-1">
+            <li><a>HOME</a></li>
+            
+          </ul>
+        </div>
+        <div class="navbar-end bg-white text-black">
+          <a class="btn bg-white text-black">Button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+  
+</html>
