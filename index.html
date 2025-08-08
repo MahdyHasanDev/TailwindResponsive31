@@ -5,54 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Responsive</title>
     <link rel="stylesheet" href="src/output.css" />
+    <!-- google font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font poppins -->
   </head>
 
   <body class="bg-white text-black min-h-screen">
-  <div id="root" class="min-h-screen ">
-    <div class="max-w-[1210px] bg-white text-black m-auto">
-      <!-- your navbar and content -->
-       <div class="navbar bg-white text-black">
-        <div class="navbar-start bg-white text-black">
-          <div class="dropdown bg-white text-black">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-white text-black">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5 bg-white text-black"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+    <div id="root" class="min-h-screen">
+      <!-- header start  -->
+      <div class="max-w-[1210px] bg-white text-black m-auto">
+        <!-- your navbar and content -->
+        <div class="navbar bg-white text-black">
+          <div class="navbar-start bg-white text-black">
+            <div class="dropdown bg-white text-black">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost lg:hidden bg-white text-black"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 bg-white text-black"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm bg-white text-black dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow"
+              >
+                <li><a>HOME</a></li>
+                <li><a>ABOUT US</a></li>
+                <li><a>SERVICES</a></li>
+                <li><a>WORKS</a></li>
+              </ul>
             </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm bg-white text-black dropdown-content rounded-box z-1 mt-3 w-52 p-2 shadow"
-            >
-              <li><a>HOME</a></li>
-              
+            <a class="btn btn-ghost bg-white text-black text-xl"
+              ><img src="images/portostar.png" alt="portostar"
+            /></a>
+          </div>
+          <div class="navbar-center bg-white text-black hidden lg:flex">
+            <ul class="menu bg-white text-black menu-horizontal px-1">
+              <li
+                style="font-family: 'Poppins', sans-serif"
+                class="text-[14px] leading-[22px] pr-11"
+              >
+                <a>HOME</a>
+              </li>
+              <li
+                style="font-family: 'Poppins', sans-serif"
+                class="text-[14px] leading-[22px] pr-11"
+              >
+                <a>ABOUT US</a>
+              </li>
+              <li
+                style="font-family: 'Poppins', sans-serif"
+                class="text-[14px] leading-[22px] pr-11"
+              >
+                <a>SERVICES</a>
+              </li>
+              <li
+                style="font-family: 'Poppins', sans-serif"
+                class="text-[14px] leading-[22px]"
+              >
+                <a>WORKS</a>
+              </li>
             </ul>
           </div>
-          <a class="btn btn-ghost bg-white text-black text-xl">daisyUI</a>
-        </div>
-        <div class="navbar-center bg-white text-black hidden lg:flex">
-          <ul class="menu bg-white text-black menu-horizontal px-1">
-            <li><a>HOME</a></li>
-            
-          </ul>
-        </div>
-        <div class="navbar-end bg-white text-black">
-          <a class="btn bg-white text-black">Button</a>
+          <div class="navbar-end bg-white text-black">
+            <a class="btn bg-[#5E3BEE] text-white">HIRE ME</a>
+          </div>
         </div>
       </div>
+      <!-- header end  -->
+      <!-- banner start  -->
+      <div class="bg-[#F9F9FC] pt-4 pb-9">
+        <div class="sm:max-w-[1210px] max-w-[365px] m-auto">
+          <div class="sm:flex">
+            <div class="sm:w-1/2 w-full text-center sm:text-left">
+              <h4
+                style="font-family: 'Poppins', sans-serif"
+                class="font-medium leading-[26px] text-[16px] pt-[45px] text-[#5E3BEE] "
+              >
+                SAKIB Al HASAN
+              </h4>
+              <h1
+                style="font-family: 'Poppins', sans-serif"
+                class="font-bold text-[30px] lg:text-[60px] lg:w-[480px] md:leading-[78px] lg:leading-[78px] py-[45px]"
+              >
+                Hello, my name’s Sakib. I’m MERN Stack Developer.
+              </h1>
+              <button
+                style="font-family: 'Poppins', sans-serif"
+                class="btn btn-outline btn-primary text-black"
+              >
+                CONTACT ME
+              </button>
+              <button
+                style="font-family: 'Poppins', sans-serif"
+                class="btn btn-outline btn-primary ml-5 text-black"
+              >
+                DOWNLOAD CV
+              </button>
+            </div>
+            <div class="sm:w-1/2 w-full mt-20 sm:mt-0">
+              <img src="images/sakib.png" alt="sakib" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- banner end  -->
     </div>
-  </div>
-</body>
-
-  
+  </body>
 </html>
